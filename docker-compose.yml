@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+    app:
+        build:
+            context: .
+        ports:
+            - "9065:9065"
+        volumes:
+            - .:/usr/src/app
+        deploy:
+            resources:
+                limits:
+                    memory: 1g
+                reservations:
+                    memory: 512m

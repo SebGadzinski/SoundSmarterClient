@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Sound Smarter</string>
+    <string name="title_activity_main">Sound Smarter</string>
+    <string name="package_name">com.Sound Smarter.app</string>
+    <string name="custom_url_scheme">com.Sound Smarter.app</string>
+</resources>

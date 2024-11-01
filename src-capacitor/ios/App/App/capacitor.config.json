@@ -1,0 +1,12 @@
+{
+	"appId": "com.soundsmarter.app",
+	"appName": "APP_DISPLAY_NAME",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "www",
+	"plugins": {
+		"CapacitorUpdater": {
+			"autoUpdateUrl": "http://10.0.0.23:5000/api/app/getLatestVersion"
+		}
+	}
+}

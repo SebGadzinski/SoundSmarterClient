@@ -1,0 +1,22 @@
+{
+  "name": "soundsmarter",
+  "version": "1.0.0",
+  "description": "A app",
+  "productName": "soundsmarter",
+  "author": "sebastian gadzinski <sebastiangadzinskiwork@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "@capacitor-community/fcm": "^6.0.0",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/app": "^6.0.1",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/ios": "^6.1.2",
+    "@capacitor/preferences": "^6.0.2",
+    "@capacitor/push-notifications": "^6.0.2",
+    "@capacitor/splash-screen": "^6.0.2",
+    "@capgo/capacitor-updater": "^6.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}

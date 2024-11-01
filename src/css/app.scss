@@ -1,0 +1,21 @@
+// app global css in SCSS form
+.extra-space {
+	height: 200px;
+	width: 100%;
+}
+.logo-image {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.truncate-name {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 80%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.truncate-div {
+	display: flex;
+	width: 100%;
+}
